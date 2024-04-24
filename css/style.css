@@ -1,0 +1,299 @@
+/* Import fonts and variables */
+@import url(./fonts.css);
+@import url(./partials/_variables.css);
+@import url(./partials/_global.css);
+/* Start navigation */
+.header_area 
+.main-menu
+ .navbar
+ .navbar-brand {
+  padding: 1rem 20rem; /* Adjust padding as needed */
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px 'Arial', sans-serif; /* Change font family */
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/*end navigation*/
+/*Banner Area*/
+.site-banner{
+  background: url(../img/home-banner.png) no-repeat 0% 50%;
+}
+.site-main.site-banner.site-title h3{
+  padding-top:35%;
+  font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after{
+  content:"";
+  height:2px;
+  width:18vw;
+  background:block;
+  display:inline-block;
+  margin-left:5%;
+  transform:translateY(-10px);
+}
+.site-main
+.site-banner
+.site-title h1{
+  font-size:5rem;
+
+}
+.site-main.site-banner.site-title h4{
+  font-size:1.5rem;
+}
+.site-main.site-banner.banner-image>ing{
+  padding: 7rem 0;
+  width:90rem;
+
+}
+.a{
+  font-family:sans-serif;
+}
+
+/*End Banner Area*/
+/*Start About Area*/
+.about-area{
+  padding:8rem 5rem;
+
+
+}
+.about-title{
+  padding:8rem 5rem;
+  display: block;
+  font: normal bold 20px/19px var(--roboto);
+  letter-spacing: 1px;
+
+}
+.paragraph>p{
+  padding:.4rem 0;
+
+}
+/*End About Area*/
+/*Start Barbd Area*/
+.brand-area{
+  padding:1rem 20rem;
+  margin-bottom: 4rem;
+
+}
+.brand-area.first-row.col-lg-4{
+  display: flex;
+  justify-content: center;
+
+}
+.single-brand{
+border:1px solid var(--border-color);
+text-align: center;
+padding: 1.8rem 0rem;
+margin:.9rem 0;
+width: 180x;
+cursor:pointer;
+transition: transform .4s ease;
+width:100%;
+
+
+
+}
+.single-brand:hover{
+ filter:brightness(0.15);
+ box-shadow:var(--box-shadow);
+transform:scale(1,1);
+
+}
+.experience-area  span{
+  display:block;
+
+
+
+}
+
+
+
+
+ /*End Brand Area*/
+ /*Services Area*/
+ .services_area{
+  padding:7rem 2rem;
+ }
+.services-title{
+  padding:0 14rem;
+}
+.services-title h1{
+  font-size:35;
+
+
+}
+.services{
+  background:rgb(248,252,253,0.97);
+  padding:2rem 0;
+  width:16rem;
+  margin:5rem .5rem;
+  transition:box-shadow.7s ease;
+
+
+}
+.services:hover{
+  box-shadow:var(--box-shadow);
+
+
+}
+ /*End Services Area*/
+
+ /*Project Area*/
+ .project-area{
+  padding:4rem 0;
+
+
+
+ }
+ .bt {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+  padding-left: 3rem;
+}
+
+.row-grid {
+  display: flex;
+  flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+   /* Равномерно распределяет элементы по контейнеру */
+
+   
+  }
+  
+  /*about me*/
+  /* Improved styling for paragraphs */
+.paraf {
+  padding: 1rem;
+  margin: 0; /* Reset margin */
+}
+
+/* Enhanced styling for client section */
+.client {
+  background-color: #ffffff; /* Adjust opacity separately */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0.1, 0.1, 0.1, 0.1); /* Add a subtle shadow */
+  margin: 3rem 0; /* Shorter margin */
+  padding: 2rem; /* Add padding */
+ 
+  
+}
+
+/* Adjusted box shadow variable */
+:root {
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.client-img{
+  padding: 2rem;
+
+}
+.about-client{
+  padding-top: 2rem;
+
+
+}
+.about-client h4{
+  font:normal 500 21px/20px var(--roboto);
+}
+.about-client p{
+  font-size:14px;
+
+
+}
+.owl-item{
+  display: flex;
+  justify-content: center;
+  padding:0 1.5rem;
+}
+
+
+
+
+  /*end about me*/
+  /*subsribe me*/
+  .subscribe{
+    background:url(../img/subscribe-bg.png) no-repeat;
+    padding:10rem 0;
+    margin:3rem auto;
+
+  }
+  .subscribe-title h4{
+    font:normal 700 30px/30px var(--roboto);
+    color:whitesmoke;
+
+  }
+  .subscribe-title p{
+    color:whitesmoke;
+    padding:1rem 4rem;
+
+
+  }
+
+.input-textbox input{
+  width:400px;
+  padding:1.5rem 1rem;
+  border:1px solid whitesmoke;
+  background:transparent;
+  color:white;
+  font:normal 500 17px/20px var(--roboto);
+
+  
+
+}
+.input-textbox input::placeholder{
+  color:whitesmoke;
+
+}
+.btn-submit button{
+  background:whitesmoke;
+  color:#000;
+  padding:.7rem 2rem;
+
+
+}
+
+  /*end subscribe me.*/
+  /*footer area*/
+
+.footer-area{
+  padding: 5rem 0;
+  background:url(../img/footer-bg.png) no-repeat;
+
+
+
+}
+.social h5{
+  font:normal 500 23px/30px var(--roboto);
+
+
+}
+.social a>i{
+  font-size:22px;
+  padding: 2rem;
+  color:var(--border-color);
+
+
+}
+.social a:hover>i{
+  color:var(--primary-color);
+
+}
+
+
